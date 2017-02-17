@@ -19,7 +19,9 @@ $(document).ready(function(){
 					);
 				}
 				var id = $("#brand").val();
+				console.log(id);
 				var found = getModelByCode(id);
+				console.log(found);
 				var content = '';
 				$.each(found, function (index, value) {
 					content +='<option>'+ value.Modèle +'</option>';
