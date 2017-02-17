@@ -1,0 +1,34 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <select id="brand">
+			 <option selected>Choose Brand</option>
+			 <option value="Audi">Audi</option>
+		</select>
+    <select id="model">
+    </select>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.js"></script>
+<script>
+$(document).ready(function(){
+  $('#brand').on('change', function() {
+			$.getJSON('prices.json', function(data){
+				function getModelByCode(Marque) {
+				return data.filter(
+					function(data){return data.Marque == Marque}
+					);
+				}
+				var id = $("#brand").val();
+				var found = getModelByCode(id);
+				var content = '';
+				$.each(found, function (index, value) {
+					content +='<option>'+ value.Modèle +'</option>';
+				});
+				$("#model").empty();
+				$(content).appendTo("#model");
+			});
+		});
+})
+<script>
+</body>
+<html>
