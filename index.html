@@ -54,7 +54,7 @@ $(document).ready(function(){
 		console.log(found);
 		var content = '';
 		$.each(found, function (index, value) {
-			content +="<tr><td>"+ value.Modèle +"</td><td>"+ value.['Prix TTC en D'] +"</td></tr>";
+			content +="<tr><td>"+ value.Modèle +"</td><td>"+ value['Prix TTC en D'] +"</td></tr>";
 		});
 		$("#model").empty();
 		$(content).appendTo("#model");
