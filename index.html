@@ -38,8 +38,8 @@
 	<option value="Toyota">Toyota</option>
 	<option value="Volkswagen">Volkswagen</option>
     </select>
-    <select id="model">
-    </select>
+    <table id="model">
+    </table>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.js"></script>
 <script>
 $(document).ready(function(){
@@ -54,7 +54,7 @@ $(document).ready(function(){
 		console.log(found);
 		var content = '';
 		$.each(found, function (index, value) {
-			content +='<option>'+ value.Modèle +'</option>';
+			content +='<tr><td>'+ value.Modèle +'</td><td>'+ value.Prix%20TTC%20en%20DT +'</td></tr>';
 		});
 		$("#model").empty();
 		$(content).appendTo("#model");
