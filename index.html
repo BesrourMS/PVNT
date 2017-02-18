@@ -91,13 +91,7 @@
                                         </tr>
                                     </thead>
                                     <tbody id="model">
-                                        <tr>
-                                            <td>QQ</td>
-                                            <td>4</td>
-                                            <td>1</td>
-                                            <td>Essence</td>
-                                            <td>18.760 DT</td>
-                                        </tr>
+                                        
 									</tbody>
                                     <tfoot>
                                         <tr>
@@ -172,7 +166,7 @@
 				console.log(found);
 				var content = '';
 				$.each(found, function (index, value) {
-					content +='<tr><td>'+ value.Modèle +'</td><td>'+ value.Puissance +'</td></td><td>'+ value["Cylindrée (L)"]+'</td><td>'+ value.Motorisation +'</td></td>'+ value["Prix TTC en DT"] +'</td></tr>';
+					content +='<tr><td>'+ value.Modèle +'</td><td>'+ value.Puissance +'</td><td>'+ value["Cylindrée (L)"]+'</td><td>'+ value.Motorisation +'</td><td>'+ value["Prix TTC en DT"] +'</td></tr>';
 				});
 				$("#model").empty();
 				$(content).appendTo("#model");
