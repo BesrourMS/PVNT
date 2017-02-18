@@ -1,66 +1,184 @@
+<!DOCTYPE html>
 <html>
-  <head>
-  </head>
-  <body>
-    <select id="brand">
-	<option selected>Choose Brand</option>
-	<option value="Audi">Audi</option>
-	<option value="Baic">Baic</option>
-	<option value="BMW">BMW</option>
-	<option value="Chery">Chery</option>
-	<option value="Chevrolet">Chevrolet</option>
-	<option value="Citroën">Citroën</option>
-	<option value="Dacia">Dacia</option>
-	<option value="DS">DS</option>
-	<option value="Fiat">Fiat</option>
-	<option value="Fiat">Fiat</option>
-	<option value="Honda">Honda</option>
-	<option value="Hyundai">Hyundai</option>
-	<option value="ISUZU">Isuzu</option>
-	<option value="Jaguar">Jaguar</option>
-	<option value="Jeep">Jeep</option>
-	<option value="Kia">Kia</option>
-	<option value="Land Rover">Land Rover</option>
-	<option value="Mahindra">Mahindra</option>
-	<option value="Mazda">Mazda</option>
-	<option value="Mercedes">Mercedes-Benz</option>
-	<option value="MINI">Mini</option>
-	<option value="Mitsubishi">Mitsubishi</option>
-	<option value="Nissan">Nissan</option>
-	<option value="Opel">Opel</option>
-	<option value="Peugeot">Peugeot</option>
-	<option value="Porsche">Porsche</option>
-	<option value="Renault">Renault</option>
-	<option value="Seat">Seat</option>
-	<option value="Škoda">Škoda</option>
-	<option value="SsangYong">SsangYong</option>
-	<option value="Tata">Tata</option>
-	<option value="Toyota">Toyota</option>
-	<option value="Volkswagen">Volkswagen</option>
-    </select><br />
-    <table id="model">
-    </table>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.js"></script>
-<script>
-$(document).ready(function(){
-  $('#brand').on('change', function() {
-	$.getJSON('prices.json', function(data){
-		function getModelByCode(Marque) {
-			return data.filter(function(data){return data.Marque == Marque});
-		}
-		var id = $("#brand").val();
-		console.log(id);
-		var found = getModelByCode(id);
-		console.log(found);
-		var content = '';
-		$.each(found, function (index, value) {
-			content +='<tr><td>'+ value.Modèle +'</td><td>'+ value["Prix TTC en DT"] +'</td></tr>';
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Prix des voitures neuves en Tunisie</title>
+    <meta name="description" content="Liste des prix des voitures neuves en Tunisie triée par prix">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,500,600">
+	<link rel="stylesheet" href="http://rezervy.com/assets/style.css">
+</head>
+
+<body>
+    <div id="page-wrapper">
+        <div class="wrapper">
+            <div class="inner">
+                <header id="header"></header>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="inner">
+                <section class="main">
+                    <header class="major">
+                        <h1>Prix des voitures neuves en Tunisie</h1>
+                        <p>Liste des prix des voitures neuves en Tunisie triée par prix</p>
+                    </header>
+                    <hr>
+					<div class="row">
+						<div class="3u 12u$(medium)">
+							&nbsp;
+						</div>
+						<div class="6u 12u$(medium)">
+							<div class="select-wrapper">
+                                <select name="demo-category" id="brand">
+                                    <option value="">- Marque -</option>
+                                    <option value="Audi">Audi</option>
+									<option value="Baic">Baic</option>
+									<option value="BMW">BMW</option>
+									<option value="Chery">Chery</option>
+									<option value="Chevrolet">Chevrolet</option>
+									<option value="Citroën">Citroën</option>
+									<option value="Dacia">Dacia</option>
+									<option value="DS">DS</option>
+									<option value="Fiat">Fiat</option>
+									<option value="Fiat">Fiat</option>
+									<option value="Honda">Honda</option>
+									<option value="Hyundai">Hyundai</option>
+									<option value="ISUZU">Isuzu</option>
+									<option value="Jaguar">Jaguar</option>
+									<option value="Jeep">Jeep</option>
+									<option value="Kia">Kia</option>
+									<option value="Land Rover">Land Rover</option>
+									<option value="Mahindra">Mahindra</option>
+									<option value="Mazda">Mazda</option>
+									<option value="Mercedes">Mercedes-Benz</option>
+									<option value="MINI">Mini</option>
+									<option value="Mitsubishi">Mitsubishi</option>
+									<option value="Nissan">Nissan</option>
+									<option value="Opel">Opel</option>
+									<option value="Peugeot">Peugeot</option>
+									<option value="Porsche">Porsche</option>
+									<option value="Renault">Renault</option>
+									<option value="Seat">Seat</option>
+									<option value="Škoda">Škoda</option>
+									<option value="SsangYong">SsangYong</option>
+									<option value="Tata">Tata</option>
+									<option value="Toyota">Toyota</option>
+									<option value="Volkswagen">Volkswagen</option>
+                                </select>
+                            </div>
+						</div>
+						<div class="3u$ 12u$(medium)">
+							&nbsp;
+						</div>
+					</div>
+					<br /><br />
+					<div class="row">
+						<div class="1u 12u$(medium)">
+							&nbsp;
+						</div>
+						<div class="10u 12u$(medium)">
+							<div class="table-wrapper">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Modèle</th>
+                                            <th>Puissance</th>
+                                            <th>Cylindrée (L)</th>
+                                            <th>Motorisation</th>
+                                            <th>Prix TTC</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="model">
+                                        <tr>
+                                            <td>QQ</td>
+                                            <td>4</td>
+                                            <td>1</td>
+                                            <td>Essence</td>
+                                            <td>18.760 DT</td>
+                                        </tr>
+									</tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td></td>
+											<td></td>
+											<td></td>
+                                            <td class="align-right">Source :</td>
+                                            <td>SAYARTI</td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+						</div>
+						<div class="1u$ 12u$(medium)">
+							&nbsp;
+						</div>
+					</div>
+                </section>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="inner">
+                <footer id="footer">
+                    <p class="copyright">© <a href="https://besrourms.github.io">Mohamed Safouan Besrour</a>. All Rights Reserved.</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+	<script src="http://rezervy.com/assets/jquery.min.js"></script>
+    <script src="http://rezervy.com/assets/skel.min.js"></script>
+    <script src="http://rezervy.com/assets/util.js"></script>     
+    <script>
+        (function($) {
+            skel.breakpoints({
+                xlarge: '(max-width: 1680px)',
+                large: '(max-width: 1280px)',
+                medium: '(max-width: 980px)',
+                small: '(max-width: 736px)',
+                xsmall: '(max-width: 480px)',
+                xxsmall: '(max-width: 360px)'
+            });
+            $(function() {
+                var $window = $(window),
+                    $body = $('body');
+                $body.addClass('is-loading');
+                $window.on('load', function() {
+                    window.setTimeout(function() {
+                        $body.removeClass('is-loading');
+                    }, 100);
+                });
+                $('form').placeholder();
+                skel.on('+medium -medium', function() {
+                    $.prioritize('.important\\28 medium\\29', skel.breakpoint('medium').active);
+                });
+                if (!skel.canUse('object-fit')) $('img[data-position]').each(function() {
+                    var $this = $(this),
+                        $parent = $this.parent();
+                    $parent.css('background-image', 'url("' + $this.attr('src') + '")').css('background-size', 'cover').css('background-repeat', 'no-repeat').css('background-position', $this.data('position'));
+                    $this.css('opacity', '0');
+                });
+            });
+        })(jQuery);
+		
+		$('#brand').on('change', function() {
+			$.getJSON('prices.json', function(data){
+				function getModelByCode(Marque) {
+					return data.filter(function(data){return data.Marque == Marque});
+				}
+				var id = $("#brand").val();
+				console.log(id);
+				var found = getModelByCode(id);
+				console.log(found);
+				var content = '';
+				$.each(found, function (index, value) {
+					content +='<tr><td>'+ value.Modèle +'</td><td>'+ value.Puissance +'</td></td><td>'+ value["Cylindrée (L)"]+'</td><td>'+ value.Motorisation +'</td></td>'+ value["Prix TTC en DT"] +'</td></tr>';
+				});
+				$("#model").empty();
+				$(content).appendTo("#model");
+			});
 		});
-		$("#model").empty();
-		$(content).appendTo("#model");
-	});
-    });
-})
-</script>
+    </script>
 </body>
-<html>
+
+</html>
