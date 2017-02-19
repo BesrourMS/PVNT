@@ -2174,5 +2174,61 @@
    "Cylindrée (L)": 3.8,
    "Motorisation": "Essence",
    "Prix TTC en DT": "716.000 DT"
+ },
+ {
+   "Marque": "Lancia",
+   "Modèle": "Ypsilon",
+   "Puissance": "4",
+   "Cylindrée (L)": 1.2,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "37.000 DT"
+ },
+  {
+   "Marque": "Morris Garage",
+   "Modèle": "3 Confort",
+   "Puissance": "5",
+   "Cylindrée (L)": 1.5,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "29.900 DT"
+ },
+ {
+   "Marque": "Morris Garage",
+   "Modèle": "3 Confort Plus",
+   "Puissance": "5",
+   "Cylindrée (L)": 1.5,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "32.200 DT"
+ },
+ {
+   "Marque": "Morris Garage",
+   "Modèle": "GT",
+   "Puissance": "6",
+   "Cylindrée (L)": 1.5,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "38.750 DT"
+ },
+ {
+   "Marque": "Morris Garage",
+   "Modèle": "GS Confort",
+   "Puissance": "9",
+   "Cylindrée (L)": 1.5,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "52.800 DT"
+ },
+ {
+   "Marque": "Morris Garage",
+   "Modèle": "GS Lux AWD BVA",
+   "Puissance": "9",
+   "Cylindrée (L)": 1.5,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "64.600 DT"
+ },
+ {
+   "Marque": "Morris Garage",
+   "Modèle": "GS Lux Plus AWD BVA",
+   "Puissance": "13",
+   "Cylindrée (L)": 2.0,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "83.000 DT"
  }
 ]
