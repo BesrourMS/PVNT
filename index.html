@@ -145,6 +145,7 @@
     	<script src="https://rezervy.com/assets/util.js"></script>     
     	<script>
         (function($) {
+	    $('select').select2();	
             skel.breakpoints({
                 xlarge: '(max-width: 1680px)',
                 large: '(max-width: 1280px)',
@@ -174,7 +175,6 @@
                 });
             });
         })(jQuery);
-	$('select').select2();	
 	$('#brand').on('change', function() {
 		$.getJSON('prices.json', function(data){
 			function getModelByCode(Marque) {
