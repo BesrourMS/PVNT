@@ -16,6 +16,7 @@
 	<meta name="theme-color" content="#575B72" />
 	<meta name="author" content="Safouan Besrour" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,500,600">
 	<link rel="stylesheet" href="https://rezervy.com/assets/style.css">
 </head>
@@ -139,6 +140,7 @@
         	</div>
     	</div>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
     	<script src="https://rezervy.com/assets/skel.min.js"></script>
     	<script src="https://rezervy.com/assets/util.js"></script>     
     	<script>
@@ -172,7 +174,7 @@
                 });
             });
         })(jQuery);
-		
+	$('select').select2();	
 	$('#brand').on('change', function() {
 		$.getJSON('prices.json', function(data){
 			function getModelByCode(Marque) {
