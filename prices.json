@@ -2230,5 +2230,45 @@
    "Cylindrée (L)": 2.0,
    "Motorisation": "Essence",
    "Prix TTC en DT": "83.000 DT"
- }
+ },
+ {
+   "Marque": "Suzuki",
+   "Modèle": "Celerio",
+   "Puissance": "4",
+   "Cylindrée (L)": 1.0,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "25.600 DT"
+},
+{
+   "Marque": "Suzuki",
+   "Modèle": "Swift",
+   "Puissance": "5",
+   "Cylindrée (L)": 1.2,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "30.500 DT"
+},
+{
+   "Marque": "Suzuki",
+   "Modèle": "Ciaz",
+   "Puissance": "5",
+   "Cylindrée (L)": 1.4,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "37.700 DT"
+},
+{
+   "Marque": "Suzuki",
+   "Modèle": "Baleno",
+   "Puissance": "5",
+   "Cylindrée (L)": 1.4,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "42.980 DT"
+},
+{
+   "Marque": "Suzuki",
+   "Modèle": "Vitara",
+   "Puissance": "6",
+   "Cylindrée (L)": 1.6,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "68.900 DT"
+}
 ]
