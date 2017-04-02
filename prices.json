@@ -2275,7 +2275,7 @@
    "Marque": "Great Wall",
    "Modèle": "C30",
    "Puissance": "",
-   "Cylindrée (L)": ,
+   "Cylindrée (L)": NULL,
    "Motorisation": "",
    "Prix TTC en DT": "30 000 DT"
 },
@@ -2283,7 +2283,7 @@
    "Marque": "Great Wall",
    "Modèle": "M4",
    "Puissance": "",
-   "Cylindrée (L)": ,
+   "Cylindrée (L)": NULL,
    "Motorisation": "",
    "Prix TTC en DT": "33 400 DT"
 },
@@ -2339,7 +2339,7 @@
    "Marque": "Haval",
    "Modèle": "H6 Luxury BVM",
    "Puissance": "",
-   "Cylindrée (L)": ,
+   "Cylindrée (L)": NULL,
    "Motorisation": "",
    "Prix TTC en DT": "61 600 DT"
 },
@@ -2347,7 +2347,7 @@
    "Marque": "Haval",
    "Modèle": "H6 Luxury BVA",
    "Puissance": "",
-   "Cylindrée (L)": ,
+   "Cylindrée (L)": NULL,
    "Motorisation": "",
    "Prix TTC en DT": "66 600 DT"
 },
