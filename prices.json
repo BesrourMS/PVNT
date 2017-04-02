@@ -2270,4 +2270,102 @@
    "Cylindrée (L)": 1.6,
    "Motorisation": "Essence",
    "Prix TTC en DT": "68.900 DT"
-}]
+},
+{
+   "Marque": "Great Wall",
+   "Modèle": "C30",
+   "Puissance": "6",
+   "Cylindrée (L)": 1.5,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "30 000 DT"
+},
+{
+   "Marque": "Great Wall",
+   "Modèle": "M4",
+   "Puissance": "6",
+   "Cylindrée (L)": 1.5,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "33 400 DT"
+},
+{
+   "Marque": "Great Wall",
+   "Modèle": "Wingle 5 simple cabine 4X4",
+   "Puissance": "7",
+   "Cylindrée (L)": 2.0,
+   "Motorisation": "Diesel",
+   "Prix TTC en DT": "43 300 DT"
+},
+{
+   "Marque": "Great Wall",
+   "Modèle": "Wingle 5 double cabine 4X2",
+   "Puissance": "7",
+   "Cylindrée (L)": 2.0,
+   "Motorisation": "Diesel",
+   "Prix TTC en DT": "43 900 DT"
+},
+{
+   "Marque": "Great Wall",
+   "Modèle": "Wingle 5 double cabine 4X4",
+   "Puissance": "7",
+   "Cylindrée (L)": 2.0,
+   "Motorisation": "Diesel",
+   "Prix TTC en DT": "49 900 DT"
+},
+{
+   "Marque": "Great Wall",
+   "Modèle": "H5",
+   "Puissance": "9",
+   "Cylindrée (L)": 2.0,
+   "Motorisation": "Diesel",
+   "Prix TTC en DT": "61 500 DT"
+},
+{
+   "Marque": "Haval",
+   "Modèle": "H2 Luxury BVM",
+   "Puissance": "9",
+   "Cylindrée (L)": 1.5,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "53 600 DT"
+},
+{
+   "Marque": "Haval",
+   "Modèle": "H2 Luxury BVA",
+   "Puissance": "9",
+   "Cylindrée (L)": 1.5,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "59 600 DT"
+},
+{
+   "Marque": "Haval",
+   "Modèle": "H6 Luxury BVM",
+   "Puissance": "9",
+   "Cylindrée (L)": 1.5,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "61 600 DT"
+},
+{
+   "Marque": "Haval",
+   "Modèle": "H6 Luxury BVA",
+   "Puissance": "9",
+   "Cylindrée (L)": 1.5,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "66 600 DT"
+},
+{
+   "Marque": "Haval",
+   "Modèle": "H8",
+   "Puissance": "15",
+   "Cylindrée (L)": 2.0,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "127 000 DT"
+},
+{
+   "Marque": "Haval",
+   "Modèle": "H9",
+   "Puissance": "15",
+   "Cylindrée (L)": 2.0,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "137 000 DT"
+}
+]
+
