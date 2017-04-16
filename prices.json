@@ -913,6 +913,22 @@
  },
  {
    "Marque": "Kia",
+   "Modèle": "CEE'D",
+   "Puissance": "6",
+   "Cylindrée (L)": 1.4,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "49.980 DT"
+ },
+ {
+   "Marque": "Kia",
+   "Modèle": "Pro CEE'D",
+   "Puissance": "6",
+   "Cylindrée (L)": 1.4,
+   "Motorisation": "Essence",
+   "Prix TTC en DT": "51.980 DT"
+ },
+ {
+   "Marque": "Kia",
    "Modèle": "Cerato BVM",
    "Puissance": "7",
    "Cylindrée (L)": 1.6,
