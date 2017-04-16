@@ -484,7 +484,7 @@
    "Modèle": "Kenbo S2",
    "Puissance": "7 CV",
    "Cylindrée (L)": 1.5,
-   "Motorisation": "essence",
+   "Motorisation": "Essence",
    "Prix TTC en DT": "38.900 DT"
  },
  {
@@ -572,7 +572,7 @@
    "Modèle": "Kenbo S3",
    "Puissance": "7 CV",
    "Cylindrée (L)": 1.5,
-   "Motorisation": "essence",
+   "Motorisation": "Essence",
    "Prix TTC en DT": "41.900 DT"
  },
  {
@@ -1020,7 +1020,7 @@
    "Modèle": "XLV BM 2WD",
    "Puissance": "7 CV (BM)",
    "Cylindrée (L)": 1.6,
-   "Motorisation": "essence",
+   "Motorisation": "Essence",
    "Prix TTC en DT": "59.900 DT"
  },
  {
@@ -1244,7 +1244,7 @@
    "Modèle": "XLV BA 2WD",
    "Puissance": "8CV",
    "Cylindrée (L)": 1.6,
-   "Motorisation": "essence",
+   "Motorisation": "Essence",
    "Prix TTC en DT": "73.800 DT"
  },
  {
@@ -2376,4 +2376,3 @@
    "Prix TTC en DT": "30 900 DT"
 }
 ]
-
